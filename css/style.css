@@ -1,0 +1,179 @@
+#sechead{
+  display: flex;
+  flex-direction: row;
+
+}
+#head1{
+    
+    background-color: coral;
+    color: white;
+    height: auto;
+    flex-basis: 20%
+}
+
+#head1 h3{
+    -webkit-transform: rotate(-90deg);
+    margin-top: 150%;
+    margin-bottom: 100%; 
+    width: 100%;
+    height: auto;
+}
+
+#head2{
+    
+    flex-basis: 80%;
+    background-color: darkslategray; 
+    height: auto;
+    font-size: 30px;
+  
+    
+}
+#circleBase{
+    height:150px; 
+    width:150px; 
+}
+
+#design{
+    color: white;
+    margin-left: 3%;
+    font-size: 60px; 
+
+}
+#head2 img{
+    margin-top:45%; 
+    margin-left:5%;
+    border-radius: 50%;
+
+}
+.textarea{
+    padding-top: 15%;
+    padding-left: 10%;  
+    height: auto;
+    background-color: palevioletred;
+    line-height:1.4;
+    font-size: 25px;
+    color: white; 
+    padding-bottom: 9%; 
+}
+.textarea2{
+    padding-top: 15%;
+    padding-left: 10%;  
+    height: auto;
+    background-color: whitesmoke;
+    line-height:1.4;
+    font-size: 25px;
+    color: black; 
+    padding-bottom: 9%; 
+}
+#size{
+    font-size: 18px;
+    width: 80%; 
+    height:auto;
+}
+#size{
+    font-size: 18px;
+    width: 85% 
+}
+#area2{
+    background-color: rgb(221, 196, 196);
+    width: 100%;
+    height: 300px;
+    margin-top: -10px; 
+    
+}
+#textarea2{
+   padding-left: 10%;
+   padding-top: 10%;
+   line-height: 1.4;
+   
+}
+#textarea3{
+    padding-left: 10%;
+    line-height: 1.4;
+    
+ }
+@media screen and (min-width : 800px){
+    
+    .sec1{
+        display: flex;
+        flex-direction: row;
+    }
+    #head1{
+        flex-basis: 50%
+    }
+    #head2{
+        flex-basis: 70%
+    }
+    #head3{
+        flex-basis: 50%
+    }
+    #sechead{
+        display: contents;
+    }
+    #circleBase{
+        height:130px; 
+        width:150px; 
+    }
+    #small {
+        height: 20%;
+        width: 100%
+    }
+    #head1 h3{
+        -webkit-transform: rotate(-90deg);
+        margin-top: 30%;
+        margin-bottom: 100%;
+        width: 100%;
+        height: auto;
+    }
+    #design{
+        color: white;
+        margin-left: 3%;
+        font-size: 45px; 
+        margin-top: 50%
+    
+    }
+    #size{
+        font-size: 18px;
+        width: 45% 
+    }
+    #circleBase{
+        height:250px; 
+        width:250px; 
+    }
+    #textarea2{       
+        width:30%;
+        float:left;
+        
+        
+     }
+     #textarea3{
+         background-color: rgb(99, 204, 245);
+         width:11.5%;
+         float:left;
+         margin-left: 17.5%; 
+         height: 110%;
+         opacity: 0.8;
+         /* width: 14%;
+         margin-left: 60%;
+         margin-top:-18%; */
+        
+    }
+    #textarea3 p{
+        margin-left: -65%;
+    }
+    #area2{
+        margin-top: -10px; 
+    }
+    #spaces{
+        margin-top: 70%;
+        color: white;
+    }
+         
+}    
+
+/* #rotater{
+    -webkit-transform: rotate(270deg);
+    transform-origin: left 0;
+    margin-left: 5%;    
+    padding-top: 30%;
+} */
