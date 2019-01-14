@@ -1,4 +1,4 @@
 # cssstyles
-task2 consist of the desktop view of the page.....
-the other open is the responsive
+task2 folder consist of the desktop view of the page non responsive.....
+the files in the root folder is responsive
 both are somewhat imcomplete :-P
